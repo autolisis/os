@@ -9,11 +9,14 @@ class Job:
     def __init__(self, PID):
         self.pid = PID
         print("Enter arrival time, burst time for pid {}:".format(self.pid))
-        self.burstTime = subprocess.Popen(['wc -w ' + PID], shell=True).stdout.read()
-        self.arrivalTime = int(os.stat(os.curdir).st_mtime)
+        self.burstTime = int(subprocess.check_output('wc -w {} | cut -f1 -d'"'"' '"'"''.format(PID), shell=True))
+        self.arrivalTime = int(os.stat(PID).st_mtime)
         self.waitingTime = 0
         self.completionTime = 0
         self.turnaroundTime = 0
+    def __str__(self, ):
+        return "{}  {}  {}  {}  {}  {}"\
+           .format(self.pid, self.arrivalTime, self.burstTime, self.completionTime, self.waitingTime, self.turnaroundTime)
     def lesserThan(self, other):
         if self.arrivalTime == other.arrivalTime:
             if self.pid < other.pid:
@@ -56,6 +59,11 @@ for file in FILES:
     a = Job(file)
     JOBS.append(a)
 
+minArrival = min([job.arrivalTime for job in JOBS]) - 10
+
+for job in JOBS:
+    job.arrivalTime -= minArrival
+
 for i in range(len(JOBS)):
     firstJob = JOBS[i]
     for j in range(i+1, len(JOBS)):
@@ -73,6 +81,7 @@ for job in JOBQUEUE:
     job.calcValue(prevJob)
     totalWaitingTime += job.waitingTime
     totalTurnaroundTime += job.turnaroundTime
+    # print(job)
     print("{}\t{}\t{}\t\t{}\t\t{}\t\t{}".format(job.pid, job.burstTime, job.arrivalTime,
                                                 job.waitingTime, job.completionTime, job.turnaroundTime))
     prevJob = job

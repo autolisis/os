@@ -1,0 +1,1 @@
+My understanding was ctime dealt with changes to the inode, but according to the URL I posted it also gets updated with file content changes
