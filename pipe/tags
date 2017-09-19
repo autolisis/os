@@ -1,0 +1,5 @@
+Mpip3.cpp	pip3.cpp	/^main (void) {$/
+closeFD	pip3.cpp	/^void closeFD(int dummy) {$/
+mypipe	pip3.cpp	14
+read_from_pipe	pip3.cpp	/^read_from_pipe (int file) {$/
+write_to_pipe	pip3.cpp	/^write_to_pipe (int file) {$/

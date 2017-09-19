@@ -2,20 +2,21 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <fstream>
-#include <iostream>
+/* #include <fstream> */
+/* #include <iostream> */
 #include <sys/wait.h>
 #include <signal.h>
 #include <string.h>
 // #include <cstdio>
 
-using namespace std;
+/* using namespace std; */
 
 int mypipe[2];
 /* Read characters from the pipe and echo them to stdout. */
 
 void closeFD(int dummy) {
-	close (mypipe[0]);
+	printf("CLOSING FD");
+	fflush(NULL);
 	close (mypipe[1]);
 	exit(0);
 }
@@ -39,21 +40,29 @@ write_to_pipe (int file) {
 
 	char str[100];
 	gets(str);
+	/* fflush(stdin); */
+	/* fflush(stdout); */
 	while (strlen(str) >0) {
 		fprintf(stream, "%s\n", str);
 		gets(str);
+		/* fflush(stdin); */
+		/* fflush(stdout); */
 	}
 	// scanf("%s", &str);
+	/* fflush(stdin); */
+	/* fflush(stdout); */
+	fflush(stream);
 	fclose (stream);
 }
 
 int
 main (void) {
 	pid_t pid;
+	int sav = dup(mypipe[0]);
 
 	/* Create the pipe. */
 	if (pipe (mypipe)) {
-		cerr << "Pipe failed.\n";
+		perror("Pipe failed.\n");
 		return EXIT_FAILURE;
 	}
 
@@ -63,14 +72,15 @@ main (void) {
 		/* This is the child process.
 		Close other end first. */
 		close (mypipe[1]);
-		dup2(mypipe[0], 0);
-		read_from_pipe (mypipe[0]);
+		close(STDIN_FILENO);
+		/* dup2(mypipe[0], 0); */
+		/* open(mypipe[0]); */
+		read_from_pipe (sav);
 		return EXIT_SUCCESS;
 	}
 	else if (pid < (pid_t) 0) {
 		/* The fork failed. */
-		cerr << "Fork failed\n";
-		return EXIT_FAILURE;
+		perror("Fork failed\n");
 	}
 	else {
 		/* This is the parent process.

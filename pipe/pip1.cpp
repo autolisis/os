@@ -46,7 +46,7 @@ main (void) {
 	if (pid == (pid_t) 0) {
 		/* This is the child process.
 			 Close other end first. */
-		// close (mypipe[1]);
+		close (mypipe[1]);
 		read_from_pipe (mypipe[0]);
 		return EXIT_SUCCESS;
 	}
