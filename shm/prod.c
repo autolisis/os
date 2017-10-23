@@ -25,6 +25,7 @@ int main()
 
 	/* now map the shared memory segment in the address space of the process */
 	ptr = mmap(0,SIZE, PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
+	memset(ptr, 0, SIZE);
 	if (ptr == MAP_FAILED) {
 		printf("Map failed\n");
 		return -1;

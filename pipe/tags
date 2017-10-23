@@ -1,5 +1,24 @@
-Mpip3.cpp	pip3.cpp	/^main (void) {$/
-closeFD	pip3.cpp	/^void closeFD(int dummy) {$/
-mypipe	pip3.cpp	14
-read_from_pipe	pip3.cpp	/^read_from_pipe (int file) {$/
-write_to_pipe	pip3.cpp	/^write_to_pipe (int file) {$/
+main	/home/g/os/pipe/a.c	/^int main() {$/;"	f	language:C	typeref:typename:int
+read_from_pipe	/home/g/os/pipe/pip1.cpp	/^read_from_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+write_to_pipe	/home/g/os/pipe/pip1.cpp	/^write_to_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+main	/home/g/os/pipe/pip1.cpp	/^main (void) {$/;"	f	language:C++	typeref:typename:int
+%.cpp.out	/home/g/os/pipe/makefile	/^%.cpp.out: %.cpp$/;"	t	language:Make
+%.c.out	/home/g/os/pipe/makefile	/^%.c.out: %.c$/;"	t	language:Make
+clean	/home/g/os/pipe/makefile	/^clean:$/;"	t	language:Make
+%.py.out	/home/g/os/pipe/makefile	/^%.py.out: %.py$/;"	t	language:Make
+%.pl.out	/home/g/os/pipe/makefile	/^%.pl.out: %.pl$/;"	t	language:Make
+mypipe	/home/g/os/pipe/pip3.c	/^int mypipe[2];$/;"	v	language:C	typeref:typename:int[2]
+closeFD	/home/g/os/pipe/pip3.c	/^void closeFD(int dummy) {$/;"	f	language:C	typeref:typename:void
+read_from_pipe	/home/g/os/pipe/pip3.c	/^read_from_pipe (int file) {$/;"	f	language:C	typeref:typename:void
+write_to_pipe	/home/g/os/pipe/pip3.c	/^write_to_pipe (int file) {$/;"	f	language:C	typeref:typename:void
+main	/home/g/os/pipe/pip3.c	/^main (void) {$/;"	f	language:C	typeref:typename:int
+read_from_pipe	/home/g/os/pipe/pip2.cpp	/^read_from_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+write_to_pipe	/home/g/os/pipe/pip2.cpp	/^write_to_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+main	/home/g/os/pipe/pip2.cpp	/^main (void) {$/;"	f	language:C++	typeref:typename:int
+mypipe	/home/g/os/pipe/pip3.cpp	/^int mypipe[2];$/;"	v	language:C++	typeref:typename:int[2]
+closeFD	/home/g/os/pipe/pip3.cpp	/^void closeFD(int dummy) {$/;"	f	language:C++	typeref:typename:void
+read_from_pipe	/home/g/os/pipe/pip3.cpp	/^read_from_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+write_to_pipe	/home/g/os/pipe/pip3.cpp	/^write_to_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+main	/home/g/os/pipe/pip3.cpp	/^main (void) {$/;"	f	language:C++	typeref:typename:int
+wordCount	/home/g/os/pipe/pip4.c	/^void wordCount() {$/;"	f	language:C	typeref:typename:void
+main	/home/g/os/pipe/pip4.c	/^int main(int argc, char *argv[]) {$/;"	f	language:C	typeref:typename:int

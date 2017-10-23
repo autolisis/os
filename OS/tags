@@ -1,0 +1,98 @@
+assign_all	/home/g/os/OS/scheduling/fifo.cpp	/^void assign_all(process p[])$/;"	f	language:C++	typeref:typename:void
+assign_rest	/home/g/os/OS/scheduling/process_sch.h	/^	void assign_rest(int nct)$/;"	f	language:C++	class:process	typeref:typename:void
+at	/home/g/os/OS/scheduling/process_sch.h	/^	int at;$/;"	m	language:C++	class:process	typeref:typename:int
+bt	/home/g/os/OS/scheduling/process_sch.h	/^	int bt;$/;"	m	language:C++	class:process	typeref:typename:int
+bt_decrement	/home/g/os/OS/scheduling/process_sch.h	/^	void bt_decrement()$/;"	f	language:C++	class:process	typeref:typename:void
+bt_decrement	/home/g/os/OS/scheduling/process_sch.h	/^	void bt_decrement(int n)$/;"	f	language:C++	class:process	typeref:typename:void
+bt_done	/home/g/os/OS/scheduling/process_sch.h	/^	void bt_done()$/;"	f	language:C++	class:process	typeref:typename:void
+ct	/home/g/os/OS/scheduling/process_sch.h	/^	int ct;$/;"	m	language:C++	class:process	typeref:typename:int
+execute	/home/g/os/OS/Shell.c	/^void  execute(char **argv)$/;"	f	language:C	typeref:typename:void
+execute	/home/g/os/OS/history.c	/^void execute(char **argv)$/;"	f	language:C	typeref:typename:void
+execute	/home/g/os/OS/shell.c	/^void  execute(char **argv)$/;"	f	language:C	typeref:typename:void
+f_short	/home/g/os/OS/scheduling/sjf.cpp	/^process f_short(process p[],int n)$/;"	f	language:C++	typeref:typename:process
+f_short	/home/g/os/OS/scheduling/srt.cpp	/^process f_short(process p[],int n)$/;"	f	language:C++	typeref:typename:process
+fifo	/home/g/os/OS/scheduling/fifo.cpp	/^void fifo(process p[])$/;"	f	language:C++	typeref:typename:void
+find_hrr	/home/g/os/OS/scheduling/hrr_pe.cpp	/^process find_hrr(process p[],int n,int sysclock)$/;"	f	language:C++	typeref:typename:process
+generateSquare	/home/g/os/OS/magic.cpp	/^void generateSquare(int n)$/;"	f	language:C++	typeref:typename:void
+generatesquare	/home/g/os/OS/Basic fork/magic.cpp	/^void generatesquare(int n)$/;"	f	language:C++	typeref:typename:void
+get_at	/home/g/os/OS/scheduling/process_sch.h	/^	int get_at()$/;"	f	language:C++	class:process	typeref:typename:int
+get_bt	/home/g/os/OS/scheduling/process_sch.h	/^	int get_bt()$/;"	f	language:C++	class:process	typeref:typename:int
+get_pid	/home/g/os/OS/scheduling/process_sch.h	/^	int get_pid()$/;"	f	language:C++	class:process	typeref:typename:int
+get_pt	/home/g/os/OS/scheduling/process_sch.h	/^	int get_pt()$/;"	f	language:C++	class:process	typeref:typename:int
+history	/home/g/os/OS/shell.c	/^char* history(char **his,int n,int i)$/;"	f	language:C	typeref:typename:char *
+hrr	/home/g/os/OS/scheduling/hrr_pe.cpp	/^void hrr(process p[])$/;"	f	language:C++	typeref:typename:void
+inpt	/home/g/os/OS/scheduling/process_sch.h	/^	void inpt(int npid,int nat,int nbt)$/;"	f	language:C++	class:process	typeref:typename:void
+inpt_pt	/home/g/os/OS/scheduling/process_sch.h	/^	void inpt_pt(int npid,int nat,int nbt,int npt)$/;"	f	language:C++	class:process	typeref:typename:void
+main	/home/g/os/OS/Basic fork/fib.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/half_sort.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/inv_mat.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/magic.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/merge3.cpp	/^int main(void)$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/odd_even.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/sort.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/zom_child.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Shell.c	/^void  main(void)$/;"	f	language:C	typeref:typename:void
+main	/home/g/os/OS/history.c	/^int main(void)$/;"	f	language:C	typeref:typename:int
+main	/home/g/os/OS/pipe/a.c	/^int main() {$/;"	f	language:C	typeref:typename:int
+main	/home/g/os/OS/pipe/pip1.cpp	/^main (void) {$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/pipe/pip2.cpp	/^main (void) {$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/pipe/pip3.cpp	/^main (void) {$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/scheduling/driver.cpp	/^int main(void)$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/shell.c	/^void  main(void)$/;"	f	language:C	typeref:typename:void
+merge2	/home/g/os/OS/Basic fork/merge3.cpp	/^void merge2(int a[],int l,int m,int r)$/;"	f	language:C++	typeref:typename:void
+order_at	/home/g/os/OS/scheduling/fifo.cpp	/^void order_at(process p[])$/;"	f	language:C++	typeref:typename:void
+order_at	/home/g/os/OS/scheduling/hrr_pe.cpp	/^void order_at(process p[])$/;"	f	language:C++	typeref:typename:void
+order_at	/home/g/os/OS/scheduling/priority_npe.cpp	/^void order_at(process p[])$/;"	f	language:C++	typeref:typename:void
+order_at	/home/g/os/OS/scheduling/priority_pe.cpp	/^void order_at(process p[])$/;"	f	language:C++	typeref:typename:void
+order_at	/home/g/os/OS/scheduling/rr.cpp	/^void order_at(process p[])$/;"	f	language:C++	typeref:typename:void
+order_at	/home/g/os/OS/scheduling/sjf.cpp	/^void order_at(process p[])$/;"	f	language:C++	typeref:typename:void
+order_at	/home/g/os/OS/scheduling/srt.cpp	/^void order_at(process p[])$/;"	f	language:C++	typeref:typename:void
+parse	/home/g/os/OS/Shell.c	/^void  parse(char *line, char **argv)$/;"	f	language:C	typeref:typename:void
+parse	/home/g/os/OS/history.c	/^void parse(char *line, char **argv)$/;"	f	language:C	typeref:typename:void
+parse	/home/g/os/OS/shell.c	/^void  parse(char *line, char **argv)$/;"	f	language:C	typeref:typename:void
+pid	/home/g/os/OS/scheduling/process_sch.h	/^{	int pid;$/;"	m	language:C++	class:process	typeref:typename:int
+print	/home/g/os/OS/scheduling/process_sch.h	/^	void print()$/;"	f	language:C++	class:process	typeref:typename:void
+print_pid_rt	/home/g/os/OS/scheduling/process_sch.h	/^	void print_pid_rt()$/;"	f	language:C++	class:process	typeref:typename:void
+print_pt	/home/g/os/OS/scheduling/process_sch.h	/^	void print_pt()$/;"	f	language:C++	class:process	typeref:typename:void
+print_pt_pe	/home/g/os/OS/scheduling/process_sch.h	/^	void print_pt_pe()$/;"	f	language:C++	class:process	typeref:typename:void
+print_srt	/home/g/os/OS/scheduling/process_sch.h	/^	void print_srt()$/;"	f	language:C++	class:process	typeref:typename:void
+priority_npe	/home/g/os/OS/scheduling/priority_npe.cpp	/^void priority_npe(process p[])$/;"	f	language:C++	typeref:typename:void
+priority_pe	/home/g/os/OS/scheduling/priority_pe.cpp	/^void priority_pe(process p[])$/;"	f	language:C++	typeref:typename:void
+process	/home/g/os/OS/scheduling/process_sch.h	/^class process$/;"	c	language:C++
+process::assign_rest	/home/g/os/OS/scheduling/process_sch.h	/^	void assign_rest(int nct)$/;"	f	language:C++	class:process	typeref:typename:void
+process::at	/home/g/os/OS/scheduling/process_sch.h	/^	int at;$/;"	m	language:C++	class:process	typeref:typename:int
+process::bt	/home/g/os/OS/scheduling/process_sch.h	/^	int bt;$/;"	m	language:C++	class:process	typeref:typename:int
+process::bt_decrement	/home/g/os/OS/scheduling/process_sch.h	/^	void bt_decrement()$/;"	f	language:C++	class:process	typeref:typename:void
+process::bt_decrement	/home/g/os/OS/scheduling/process_sch.h	/^	void bt_decrement(int n)$/;"	f	language:C++	class:process	typeref:typename:void
+process::bt_done	/home/g/os/OS/scheduling/process_sch.h	/^	void bt_done()$/;"	f	language:C++	class:process	typeref:typename:void
+process::ct	/home/g/os/OS/scheduling/process_sch.h	/^	int ct;$/;"	m	language:C++	class:process	typeref:typename:int
+process::get_at	/home/g/os/OS/scheduling/process_sch.h	/^	int get_at()$/;"	f	language:C++	class:process	typeref:typename:int
+process::get_bt	/home/g/os/OS/scheduling/process_sch.h	/^	int get_bt()$/;"	f	language:C++	class:process	typeref:typename:int
+process::get_pid	/home/g/os/OS/scheduling/process_sch.h	/^	int get_pid()$/;"	f	language:C++	class:process	typeref:typename:int
+process::get_pt	/home/g/os/OS/scheduling/process_sch.h	/^	int get_pt()$/;"	f	language:C++	class:process	typeref:typename:int
+process::inpt	/home/g/os/OS/scheduling/process_sch.h	/^	void inpt(int npid,int nat,int nbt)$/;"	f	language:C++	class:process	typeref:typename:void
+process::inpt_pt	/home/g/os/OS/scheduling/process_sch.h	/^	void inpt_pt(int npid,int nat,int nbt,int npt)$/;"	f	language:C++	class:process	typeref:typename:void
+process::pid	/home/g/os/OS/scheduling/process_sch.h	/^{	int pid;$/;"	m	language:C++	class:process	typeref:typename:int
+process::print	/home/g/os/OS/scheduling/process_sch.h	/^	void print()$/;"	f	language:C++	class:process	typeref:typename:void
+process::print_pid_rt	/home/g/os/OS/scheduling/process_sch.h	/^	void print_pid_rt()$/;"	f	language:C++	class:process	typeref:typename:void
+process::print_pt	/home/g/os/OS/scheduling/process_sch.h	/^	void print_pt()$/;"	f	language:C++	class:process	typeref:typename:void
+process::print_pt_pe	/home/g/os/OS/scheduling/process_sch.h	/^	void print_pt_pe()$/;"	f	language:C++	class:process	typeref:typename:void
+process::print_srt	/home/g/os/OS/scheduling/process_sch.h	/^	void print_srt()$/;"	f	language:C++	class:process	typeref:typename:void
+process::pt	/home/g/os/OS/scheduling/process_sch.h	/^	int pt;$/;"	m	language:C++	class:process	typeref:typename:int
+process::tat	/home/g/os/OS/scheduling/process_sch.h	/^	int tat;$/;"	m	language:C++	class:process	typeref:typename:int
+process::wt	/home/g/os/OS/scheduling/process_sch.h	/^	int wt;$/;"	m	language:C++	class:process	typeref:typename:int
+pt	/home/g/os/OS/scheduling/process_sch.h	/^	int pt;$/;"	m	language:C++	class:process	typeref:typename:int
+pt_high	/home/g/os/OS/scheduling/priority_npe.cpp	/^process pt_high(process p[],int n)$/;"	f	language:C++	typeref:typename:process
+pt_high	/home/g/os/OS/scheduling/priority_pe.cpp	/^process pt_high(process p[],int n)$/;"	f	language:C++	typeref:typename:process
+read_from_pipe	/home/g/os/OS/pipe/pip1.cpp	/^read_from_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+read_from_pipe	/home/g/os/OS/pipe/pip2.cpp	/^read_from_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+read_from_pipe	/home/g/os/OS/pipe/pip3.cpp	/^read_from_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+rr	/home/g/os/OS/scheduling/rr.cpp	/^void rr(process p[])$/;"	f	language:C++	typeref:typename:void
+sjf	/home/g/os/OS/scheduling/sjf.cpp	/^void sjf(process p[])$/;"	f	language:C++	typeref:typename:void
+sort2	/home/g/os/OS/Basic fork/merge3.cpp	/^void sort2(int a[],int l,int r)		\/\/two way partition$/;"	f	language:C++	typeref:typename:void
+srt	/home/g/os/OS/scheduling/srt.cpp	/^void srt(process p[])$/;"	f	language:C++	typeref:typename:void
+tat	/home/g/os/OS/scheduling/process_sch.h	/^	int tat;$/;"	m	language:C++	class:process	typeref:typename:int
+write_to_pipe	/home/g/os/OS/pipe/pip1.cpp	/^write_to_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+write_to_pipe	/home/g/os/OS/pipe/pip2.cpp	/^write_to_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+write_to_pipe	/home/g/os/OS/pipe/pip3.cpp	/^write_to_pipe (int file) {$/;"	f	language:C++	typeref:typename:void
+wt	/home/g/os/OS/scheduling/process_sch.h	/^	int wt;$/;"	m	language:C++	class:process	typeref:typename:int

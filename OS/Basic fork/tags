@@ -1,0 +1,11 @@
+generatesquare	/home/g/os/OS/Basic fork/magic.cpp	/^void generatesquare(int n)$/;"	f	language:C++	typeref:typename:void
+main	/home/g/os/OS/Basic fork/fib.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/half_sort.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/inv_mat.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/magic.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/merge3.cpp	/^int main(void)$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/odd_even.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/sort.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+main	/home/g/os/OS/Basic fork/zom_child.cpp	/^int main()$/;"	f	language:C++	typeref:typename:int
+merge2	/home/g/os/OS/Basic fork/merge3.cpp	/^void merge2(int a[],int l,int m,int r)$/;"	f	language:C++	typeref:typename:void
+sort2	/home/g/os/OS/Basic fork/merge3.cpp	/^void sort2(int a[],int l,int r)		\/\/two way partition$/;"	f	language:C++	typeref:typename:void

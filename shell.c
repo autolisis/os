@@ -57,16 +57,16 @@ int main(void) {
 	char *argv[64];
 
 	using_history();
-	read_history(".gshist");
+	read_history(NULL);
 	while (1) {
-		char *line = readline("$ ->\t");
+		char *line = readline("Command ->\t");
 		if (startsWith(line, "!"))
 			line = executeNthCommand(line);
 		if (line)
 			add_history(line);
 		parse(line, argv);
 		if (strcmp(argv[0], "exit") == 0) {
-			write_history(".gshist");
+			write_history(NULL);
 			exit(0);
 		}
 		execute(argv);
